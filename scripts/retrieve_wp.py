@@ -3,7 +3,7 @@ import requests as rq
 
 from scripts.util import extract_rfpp_from_wikitable
 
-headers = {"User-Agent": "th.ruprechter@gmail.com"}
+headers = {"User-Agent": "custom_address@mail.com"} # change this accordingly
 
 MW_API = lambda wiki: f"https://{wiki}.wikipedia.org/w/api.php"
 
