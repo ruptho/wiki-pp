@@ -8,7 +8,7 @@ from scripts.util import get_day_range_for_months, get_month_range_for_months, s
     chunk_list
 
 WM_API = 'https://wikimedia.org/api/rest_v1'
-headers = {"User-Agent": "th.ruprechter@gmail.com"}
+headers = {"User-Agent": "custom_address@mail.com"} # change this accordingly
 
 PV_ACCESS_ALL = 'all-access'
 PV_ACCESS_DESKTOP = 'desktop'
