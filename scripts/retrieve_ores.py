@@ -10,7 +10,7 @@ from scripts.logger import Logger
 from scripts.util import chunk_list, flatten_list, compute_quality_weighted_sum
 
 ORES_URL = lambda l: f'http://ores.wikimedia.org/v3/scores/{l}wiki'
-headers = {"User-Agent": "th.ruprechter@gmail.com"}
+headers = {"User-Agent": "custom_address@mail.com"} # change this accordingly
 ORES_FEATURES_SEPT23 = ['feature.english.stemmed.revision.stems_length', 'feature.enwiki.infobox_images',
                         'feature.enwiki.main_article_templates', 'feature.enwiki.revision.category_links',
                         'feature.enwiki.revision.cite_templates', 'feature.enwiki.revision.cn_templates',
